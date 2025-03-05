@@ -16,6 +16,11 @@
 
 ```
 
+# How to Play
+```bash
+python main.py
+```
+
 # 环境配置
 安装音视频处理工具 `ffmpeg`。
 ```bash
@@ -57,6 +62,7 @@ reserve_source: False
 ```
 
 下载的视频位于 `download_videos` 目录。
+
 
 # 参考
 [Python爬虫：爬取B站视频（最新、能用且讲解详细）【01】](https://blog.csdn.net/knighthood2001/article/details/139014757)
