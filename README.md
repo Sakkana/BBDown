@@ -32,6 +32,11 @@ pip install ffmpeg-python
 网页端登录 Bilibili，按 F12 打开开发者工具，在控制台输入 `document.cookie` 
 ![](img/cookie.png)
 
+将 `cookie` 导入环境变量：
+```bash
+export BiliCOOKIE="your cookie"
+```
+
 ## 视频 ID
 编辑器打开 config.yml，在 `bid` 下填入需要下载的视频的 `bid`。
 
